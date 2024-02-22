@@ -1,0 +1,29 @@
+.greyBtn{
+    background: #2C363F;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.greyBtn:hover{
+    transition: all ease 0.4s;
+    opacity: 0.9;
+}
+
+@media(max-width: 992px){
+    .greyBtn{
+        padding: 10px 25px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 768px){
+    .greyBtn{
+        font-size: 18px;
+    }
+}

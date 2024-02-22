@@ -1,0 +1,48 @@
+.headerContainer{
+    border-bottom: 1px solid #2C363F;
+    display: flex;
+    padding: 25px 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav .header__navBtn{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 20px;
+    border: 2px solid #2C363F;
+    text-decoration: none;
+    color: #2C363F;
+}
+
+.header__nav .header__navBtn:hover{
+    transition: all ease 0.4s;
+    color: #f2f5ea;
+    background: #2C363F;
+}
+
+@media(min-width: 768px){
+    .menuIcon{
+        display: none;
+    }
+}
+
+@media(max-width: 768px){
+    .headerContainer{
+        padding: 20px;
+        position: relative;
+    }
+
+    .header__nav .header__navBtn{
+        padding: 4px 15px;
+        font-size: 16px;
+    }
+
+    .menuIcon{
+        width: 50px;
+    }
+
+    .menuDesktop{
+        display: none;
+    }
+}

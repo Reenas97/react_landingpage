@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #f2f5ea;
+}
+
+.container{
+  padding: 60px 120px;
+}
+
+.line{
+  width: 30%;
+  height: 10px;
+  background-color: #2C363F;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.line.white{
+  background: #F2F5EA;
+}
+
+.bg--grey{
+  background: #2C363F;
+}
+
+.titleSection__white{
+  color: #F2F5EA!important;
+}
+
+.section__title{
+  width: 30%;
+}
+
+
+@media(max-width: 768px){
+  .section__title{
+    width: unset;
+  }
+
+  .container {
+    padding: 50px 30px;
+  }
+  
+}
+

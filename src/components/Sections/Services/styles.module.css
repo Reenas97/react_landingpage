@@ -1,0 +1,63 @@
+.servicesSection{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 40px;
+}
+
+.servicesSection__title{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.letsTalk{
+  background: #F2F5EA;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.letsTalk p{
+  font-size: 24px;
+  line-height: 125%;
+  color: #2C363F;
+  font-weight: 700;
+}
+
+
+.servicesSection__items{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media(max-width: 992px){
+  .servicesSection{
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .servicesSection__title{
+    justify-content: space-around;
+  }
+  
+  .servicesSection__items{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width: 768px){
+  .section__title{
+    width: unset;
+  }
+
+  .servicesSection {
+    grid-template-columns: 1fr;
+  }
+
+  .letsTalk {
+    margin-top: 30px;
+  }
+}

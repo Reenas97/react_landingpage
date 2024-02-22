@@ -1,0 +1,13 @@
+.footerContainer{
+    border-top: 1px solid #2C363F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+}
+
+@media(max-width: 768px){
+    .footerContainer{
+        padding: 20px 30px;
+    }
+}
